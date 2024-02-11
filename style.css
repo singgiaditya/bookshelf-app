@@ -195,10 +195,30 @@ main {
     float: left;
     width: 45%;
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="Left"] {
+      width: 100%;
+      float: none;
+
+    }
+  }
+  
+
 .Right{
     float: right;
     width: 45%;
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="Right"] {
+      width: 100%;
+      float: none;
+
+    }
+  }
 
 
 
